@@ -1,0 +1,60 @@
+// 加减按钮样式
+.add-subtraction-btn {
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+	background-color: #2295ff;
+	border: 1rpx #2295ff solid;
+	border-radius: 50rpx;
+	.add-subtraction {
+		position: absolute;
+		left: 15%;
+		top: 15%;
+		color: #fff;
+	}
+	.iconjian2 {
+		color: #2295ff;
+	}
+}
+.jianBtn {
+	background-color: #fff;
+}
+// 数量统计样式
+.count-item {
+	$heigth: 28rpx;
+	position: absolute;
+	top: 0rpx;
+	right: 0rpx;
+	line-height: $heigth;
+	text-align: center;
+	height: $heigth;
+	font-size: 20rpx;
+	font-weight: 700;
+	color: #fff;
+	border-radius: $heigth;
+	padding: 0px 8rpx;
+	background-image: linear-gradient(-90deg, #ff7416, #ff3c15 98%);
+}
+// 标签
+.label {
+	position: absolute;
+	font-size: 20rpx;
+	font-weight: 700;
+	padding: 0px 5rpx;
+}
+.right-count {
+	color: #333;
+	// min-width: 40rpx;
+	line-height: 45rpx;
+	font-size: 28rpx;
+	text-align: center;
+}
+
+// 全屏加载
+.loading {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+}

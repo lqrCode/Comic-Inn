@@ -1,0 +1,19 @@
+// 招牌
+.zhaopai {
+	::before {
+		content: '招牌';
+		background-image: linear-gradient(135deg, #ffae1b, #f57751);
+		position: absolute;
+		font-size: 20rpx;
+		font-weight: 700;
+		padding: 0px 5rpx;
+	}
+}
+
+// 菜单图片
+.menuImg {
+	width: 190rpx;
+	height: 190rpx;
+	background-color: #555555;
+	border-radius: 5rpx;
+}

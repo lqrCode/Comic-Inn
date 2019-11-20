@@ -1,0 +1,29 @@
+{
+	"pages": [{
+			"path": "pages/code_order/CodeOrderHome",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "扫码点餐",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/comic/ComicHome",
+			"style": {
+				"navigationBarTitleText": "皮皮"
+			}
+		}, {
+			"path": "pages/comic/ComicDetail",
+			"style": {}
+		}, {
+			"path": "pages/comic/ComicPlayer",
+			"style": {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "皮皮",
+		"navigationBarBackgroundColor": "#3C3E49",
+		"backgroundColor": "#3C3E49"
+	}
+}
