@@ -1,5 +1,5 @@
 {
-  "name": "ComicInn",
+  "name": "comic_inn",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -7,17 +7,23 @@
     "declarations": true
   },
   "dependencies": {
-    "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "cheerio": "^1.0.0-rc.3",
+    "egg-mysql": "^3.0.0",
+    "egg-router-plus": "^1.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "uniqid": "^5.1.0",
+    "egg": "^2.25.0",
+    "egg-cors": "^2.2.3",
+    "egg-scripts": "^2.11.1"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
+    "autod": "^3.1.0",
     "autod-egg": "^1.1.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "egg-bin": "^4.14.0",
+    "egg-ci": "^1.13.1",
+    "egg-mock": "^3.24.2",
+    "eslint": "^6.6.0",
+    "eslint-config-egg": "^7.5.1"
   },
   "engines": {
     "node": ">=10.0.0"
