@@ -1,2 +1,1 @@
-### 初始化
-[uniapp官网](https://uniapp.dcloud.io/)
+### 漫画客栈uni版
