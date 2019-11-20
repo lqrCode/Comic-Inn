@@ -1,33 +1,3 @@
-# ComicInn
+# Comic-Inn 漫画客栈
 
-
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
+Comic-Inn是一款跨平台的开源的漫画平台，提供更好更方便的驾车体验。支持网页端、小程序、Android、IOS、Window、Mac、Linux多端体验，总有你喜欢的那个她。
