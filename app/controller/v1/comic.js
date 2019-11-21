@@ -11,6 +11,7 @@ class ComicController extends Controller {
   async detail() {
     const { ctx } = this;
     const query = this.ctx.query;
+    console.log(query);
     const res = await ctx.service.v1.comic.detail(query.id);
     ctx.body = res;
   }

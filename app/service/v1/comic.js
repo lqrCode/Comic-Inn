@@ -47,7 +47,7 @@ class ComicService extends Service {
           .text(),
         summary: _floor.children('.hd').find('.summary')
           .text(),
-        list: _list,
+        floor_lists: _list,
       });
     }
     // rank
@@ -68,7 +68,7 @@ class ComicService extends Service {
         title: mk.children('#rank-tabs').children('.hd').find('.ift-fire')
           .eq(i)
           .text(),
-        list: _list,
+        rank_lists: _list,
       });
 
     }

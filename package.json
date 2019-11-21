@@ -29,7 +29,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-ComicInn",
+    "start": "egg-scripts start --port=7012 --daemon --title=egg-server-ComicInn",
     "stop": "egg-scripts stop --title=egg-server-ComicInn",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
